@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/49f322cff2.js" crossorigin="anonymous"></script>
+  <title>Shopping Cart - Airsoft Ecommerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <section class="header">
+    <a href="#"><img src="logo.png" alt="logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count"></span></a></li>
+        <a href="#"><i id="close" class="fa-solid fa-xmark"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count"></span></a>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+  
+  <section id="page-header" class="cart-header">
+    <h2>#YourCart</h2>
+    <p>Review and checkout your selected items</p>
+  </section>
+  
+  <section id="cart" class="section-p1">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Subtotal</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+          <td><img src="img/products/s1.jpeg" alt=""></td>
+          <td>Sniper Gun</td>
+          <td>$190.00</td>
+          <td><input type="number" value="1"></td>
+          <td>$190.00</td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+          <td><img src="img/products/s2.jpeg" alt=""></td>
+          <td>Assault Rifle</td>
+          <td>$250.00</td>
+          <td><input type="number" value="1"></td>
+          <td>$250.00</td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+          <td><img src="img/products/s3.jpeg" alt=""></td>
+          <td>Pistol</td>
+          <td>$120.00</td>
+          <td><input type="number" value="2"></td>
+          <td>$240.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+      </div>
+    </div>
+    
+    <div id="subtotal">
+      <h3>Cart Totals</h3>
+      <table>
+        <tr>
+          <td>Cart Subtotal</td>
+          <td>$680.00</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>$15.00</td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>$695.00</strong></td>
+        </tr>
+      </table>
+      <button class="normal">Proceed to Checkout</button>
+    </div>
+  </section>
+  
+  <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="logo.png" alt="logo">
+        <h4>Contact</h4>
+        <p><strong>Address : </strong>Zone 10 poblacion Tagoloan Missamis Oriental</p>
+        <p><strong>Phone : </strong>+(63) 9911071960</p>
+        <p><strong>Hours : </strong>10:00 - 6:00, Mon - Sat </p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-threads"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+    </div>
+    
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign-in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    
+    <div class="col install">
+    <h4>Install App</h4>
+    <p>from App Store or Google Store</p>
+    <div class="app-buttons">
+        <img src="img/pay/app.jpeg" alt="App Store" class="app-btn">
+        <img src="img/pay/play.jpeg" alt="Google Play" class="app-btn">
+    </div>
+    <p class="payment-text">Secure Payment Gateways</p>
+    <div class="payment-methods">
+        <img src="img/pay/visa.jpeg" alt="VISA">
+        <img src="img/pay/paypal.jpeg" alt="PayPal">
+        <img src="img/pay/gcash.jpeg" alt="GCash">
+    </div>
+</div>
+    
+    <div class="copyright">
+        <p>@ 2025 | Crisjhon Deguiñon - Airsoft Ecommerce</p>
+    </div>
+</footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,16 +1,443 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/49f322cff2.js" crossorigin="anonymous"></script>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  Hello world
+  
+  <section class="header">
+    <a href="#"><img src="logo.png" alt="logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count"></span></a></li>
+        <a href="#"><i id="close" class="fa-solid fa-xmark"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count"></span></a>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+  
+  <section id="Main">
+    <h4>Trade-In-Offer</h4>
+    <h2>Super Value Deals</h2>
+    <h1>On All Product</h1>
+    <p>Save more With coupons & up to 60% off!</p>
+    <button>Order Now <i class="fa-solid fa-cart-shopping"></i></button>
+  </section>
+  
+  <section id="feature" class="section-p1">
+    <div class="fe-box">
+      <img src="img/feature/f1.jpeg" alt="Freeship">
+      <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+      <img src="img/feature/f2.jpeg" alt="Freeship">
+      <h6>Save Money</h6>
+    </div>
+    <div class="fe-box">
+      <img src="img/feature/f3.jpeg" alt="Freeship">
+      <h6>Online Order</h6>
+    </div>
+    <div class="fe-box">
+      <img src="img/feature/f4.jpeg" alt="Freeship">
+      <h6>Promotions</h6>
+    </div>
+    <div class="fe-box">
+      <img src="img/feature/f5.jpeg" alt="Freeship">
+      <h6>Happy To Sell</h6>
+    </div>
+    <div class="fe-box">
+      <img src="img/feature/f6.jpeg" alt="Freeship">
+      <h6>24/7 Service</h6>
+    </div>
+  </section>
+  
+  <section id="Product-1" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Gun Collection & New Modern Design</p>
+    <div class="container">
+      <div class="box">
+        <img src="/img/products/sniper1.jpeg" alt="gun">
+        <div class="des">
+          <span>Sniper</span>
+          <h5>Tokyo Marui VSR-10 G-Spec</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$190</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle1.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>Tokyo Marui M4A1 SOPMOD</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$349</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle2.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>G&G CM16 Raider 2.0</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$199</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle2.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>G&G CM16 Raider 2.0</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$199</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle3.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>Krytac Trident MK2 CRB</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$379</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle4.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>VFC Avalon Calibur Carbine</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$420</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle5.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>LCT AK-74M</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$359</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle6.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>ASG Scorpion EVO 3 A1</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$399</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="banner" class="section-m1">
+  <h4>Repair Service</h4>
+  <h2>Up to <span>60% off</span> - All Guns & Accessories</h2>
+  <button class="normal">Explore More!</button>
+</section>
+  
+  <section id="Product-1" class="section-p1">
+    <h2>New Arrivals</h2>
+    <p>Gun Collection & New Modern Design</p>
+    <div class="container">
+      <div class="box">
+        <img src="/img/products/sniper1.jpeg" alt="gun">
+        <div class="des">
+          <span>Sniper</span>
+          <h5>Tokyo Marui VSR-10 G-Spec</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$190</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle1.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>Tokyo Marui M4A1 SOPMOD</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$349</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle2.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>G&G CM16 Raider 2.0</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$199</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle2.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>G&G CM16 Raider 2.0</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$199</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle3.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>Krytac Trident MK2 CRB</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$379</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle4.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>VFC Avalon Calibur Carbine</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$420</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle5.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>LCT AK-74M</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$359</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="box">
+        <img src="/img/products/rifle6.jpeg" alt="gun">
+        <div class="des">
+          <span>Rifle</span>
+          <h5>ASG Scorpion EVO 3 A1</h5>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h4>$399</h4>
+        </div>
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+    
+  </section>
+  
+  <section id="sm-banner" class="section-p1">
+    <div class="banner-box">
+      <h4>Crazy Deals</h4>
+      <h2>Buy 1 Get 2 bb pellets</h2>
+      <span>The Best Crazy deals is on The Airsoft Gear & Action</span>
+      <button class="white">Learn More</button>
+    </div>
+    <div class="banner-box2">
+      <h4>Seasons Day</h4>
+      <h2>Upcoming Sells</h2>
+      <span>The Best Crazy deals is on The Airsoft Gear & Action</span>
+      <button class="white">Collection</button>
+    </div>
+  </section>
+  
+  <section id="banner3">
+    <div class="banner-box">
+      <h2>SEASONAL SELL</h2>
+      <h3>Single Collection 70% OFF</h3>
+    </div>
+    <div class="banner-box2">
+      <h2>Collection Gun</h2>
+      <h3>Automatic Collection 70% OFF</h3>
+    </div>
+    <div class="banner-box4">
+      <h2>Active User+</h2>
+      <h3>Over 10,00k+ user Active</h3>
+    </div>
+  </section>
+  
+  <section id="news" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail about our latest or any <span>special offers.</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your Email Address...">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+  
+  <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="logo.png" alt="logo">
+        <h4>Contact</h4>
+        <p><strong>Address : </strong>Zone 10 poblacion Tagoloan Missamis Oriental</p>
+        <p><strong>Phone : </strong>+(63) 9911071960</p>
+        <p><strong>Hours : </strong>10:00 - 6:00, Mon - Sat </p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-threads"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+    </div>
+    
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign-in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    
+    <div class="col install">
+    <h4>Install App</h4>
+    <p>from App Store or Google Store</p>
+    <div class="app-buttons">
+        <img src="img/pay/app.jpeg" alt="App Store" class="app-btn">
+        <img src="img/pay/play.jpeg" alt="Google Play" class="app-btn">
+    </div>
+    <p class="payment-text">Secure Payment Gateways</p>
+    <div class="payment-methods">
+        <img src="img/pay/visa.jpeg" alt="VISA">
+        <img src="img/pay/paypal.jpeg" alt="PayPal">
+        <img src="img/pay/gcash.jpeg" alt="GCash">
+    </div>
+</div>
+    
+    <div class="copyright">
+        <p>@ 2025 | Crisjhon Deguiñon - Airsoft Ecommerce</p>
+    </div>
+</footer>
+  
   <script src="script.js"></script>
 </body>
-
 </html>
